@@ -39,7 +39,7 @@ const Navbar = () => {
         <img
           src={assets.menu_icon}
           alt='menu icon'
-          className='md:hidden w-7 cursor-pointer'
+          className='md:hidden w-11 p-2 rounded-lg cursor-pointer hover:bg-gray-500/20 backdrop-blur-md border border-white/20 transition-colors'
           onClick={() => setShowMobileMenu(true)}
         />
       </div>
@@ -50,18 +50,18 @@ const Navbar = () => {
         <div className='flex justify-end p-6'>
           <img
             src={assets.cross_icon}
-            className='w-8 cursor-pointer bg-white rounded-lg p-2'
+            className='w-8 cursor-pointer bg-white rounded-lg p-2 hover:backdrop-blur-md hover:bg-white/60 transition-colors duration-300'
             alt='cross-icon'
             onClick={() => setShowMobileMenu(false)}
           />
         </div>
 
-        <ul className='flex flex-col justify-end items-start gap-2 mt-5 px-5 text-lg font-medium'>
+        <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium'>
           {navLinks.map(({ id, link, title }) => (
             <a
               key={id}
               href={link}
-              className='text-center px-4 py-2 rounded-lg inline-block hover:bg-gray-500/20 w-full transition-all ease-in-out duration-300'
+              className='px-4 py-2 rounded-lg inline-block hover:bg-gray-500/20 w-full transition-all ease-in-out duration-300'
               onClick={() => setShowMobileMenu(false)}
             >
               {title}
