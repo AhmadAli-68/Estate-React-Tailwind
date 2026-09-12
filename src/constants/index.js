@@ -1,73 +1,22 @@
-import project_img_1 from '../assets/assets'
-import project_img_2 from '../assets/assets'
-import project_img_3 from '../assets/assets'
-import project_img_4 from '../assets/assets'
-import project_img_5 from '../assets/assets'
-import project_img_6 from '../assets/assets'
-
-export const projectsData = [
+export const navLinks = [
   {
-    title: "Skyline Haven",
-    price: "$2,50,000",
-    location: "California",
-    image: project_img_1
+    id: 1,
+    link: '#header',
+    title: 'Home'
   },
   {
-    title: "Vista Verde",
-    price: "$2,50,000",
-    location: "San Francisco",
-    image: project_img_2
+    id: 2,
+    link: '#about',
+    title: 'About'
   },
   {
-    title: "Serenity Suites",
-    price: "$2,50,000",
-    location: "Chicago",
-    image: project_img_3
+    id: 3,
+    link: '#projects',
+    title: 'Projects'
   },
   {
-    title: "Central Square",
-    price: "$2,50,000",
-    location: "Los Angeles",
-    image: project_img_4
+    id: 4,
+    link: '#testimonials',
+    title: 'Testimonials'
   },
-  {
-    title: "Vista Verde",
-    price: "$2,50,000",
-    location: "San Francisco",
-    image: project_img_5
-  },
-  {
-    title: "Serenity Suites",
-    price: "$2,50,000",
-    location: "Chicago",
-    image: project_img_6
-  },
-
-];
-
-export const testimonialsData = [
-  {
-    name: "Donald Jackman",
-    title: "Marketing Manager",
-    image: profile_img_1,
-    alt: "Portrait of Donald Jackman",
-    rating: 5,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
-  },
-  {
-    name: "Richard Nelson",
-    title: "UI/UX Designer",
-    image: profile_img_2,
-    alt: "Portrait of Richard Nelson",
-    rating: 4,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
-  },
-  {
-    name: "James Washington",
-    title: "Co-Founder",
-    image: profile_img_3,
-    alt: "Portrait of James Washington",
-    rating: 5,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
-  }
-];
+]
