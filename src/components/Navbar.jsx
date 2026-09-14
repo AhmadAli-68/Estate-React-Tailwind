@@ -36,7 +36,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <button className='hidden md:block bg-white px-8 py-2 rounded-full cursor-pointer hover:bg-black hover:text-white transition-all duration-300'>Sign up</button>
+        <button className='hidden md:block bg-white px-8 py-2 rounded-full cursor-pointer hover:bg-gray-900 hover:text-white transition-all duration-300'>Sign up</button>
 
         <img
           src={assets.menu_icon}
