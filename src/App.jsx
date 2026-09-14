@@ -1,9 +1,10 @@
-import { Header } from './components'
+import { About, Header } from './components'
 
 const App = () => {
   return (
     <div className='w-full overflow-hidden'>
       <Header />
+      <About />
     </div>
   )
 }

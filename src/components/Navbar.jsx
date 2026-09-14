@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { assets } from '../assets/assets'
 import { navLinks } from '../constants'
+import { handleSmoothScroll } from './SmoothScroll'
 
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false)
@@ -23,11 +24,12 @@ const Navbar = () => {
         <img src={assets.logo} alt='logo' />
 
         <ul className='hidden md:flex gap-7 text-white'>
-          {navLinks.map(({ id, title, link }) => (
+          {navLinks.map(({ id, title, link, sectionId }) => (
             <a
               key={id}
               href={link}
-              className='cursor-pointer hover:text-gray-400'
+              className='cursor-pointer hover:text-gray-400 transition-all'
+              onClick={(e) => handleSmoothScroll(e, sectionId)}
             >
               {title}
             </a>
