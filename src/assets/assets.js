@@ -65,6 +65,7 @@ export const projectsData = [
 
 export const testimonialsData = [
   {
+    id: 1,
     name: "Donald Jackman",
     title: "Marketing Manager",
     image: profile_img_1,
@@ -73,20 +74,22 @@ export const testimonialsData = [
     text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
   },
   {
+    id: 2,
     name: "Richard Nelson",
     title: "UI/UX Designer",
     image: profile_img_2,
     alt: "Portrait of Richard Nelson",
     rating: 4,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+    text: "Their professionalism and dedication made the entire property-buying process smooth and stress-free. They listened to my needs, provided valuable guidance, and helped me make the right decision. I couldn't be happier with the service and the beautiful property they helped me find."
   },
   {
+    id: 3,
     name: "James Washington",
     title: "Co-Founder",
     image: profile_img_3,
     alt: "Portrait of James Washington",
     rating: 5,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+    text: "Working with their team was an incredible experience from start to finish. They made the process simple, transparent, and enjoyable, always going above and beyond to meet my expectations. Their expertise and genuine care for their clients truly set them apart."
   }
 ];
 

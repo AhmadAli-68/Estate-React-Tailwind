@@ -91,7 +91,7 @@ const Projects = () => {
                   </h2>
 
                   <p className='text-sm text-gray-500'>
-                    {price} <span>|</span> {location}
+                    {price} <span className='px-1'>|</span> {location}
                   </p>
                 </div>
               </div>
