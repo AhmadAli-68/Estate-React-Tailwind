@@ -1,4 +1,4 @@
-import { About, Contact, Header, Projects, Testimonials } from './components/index'
+import { About, Contact, Footer, Header, Projects, Testimonials } from './components/index'
 import { Toaster } from 'react-hot-toast'
 
 const App = () => {
@@ -9,6 +9,7 @@ const App = () => {
       <Projects />
       <Testimonials />
       <Contact />
+      <Footer />
       <Toaster
         position='top-center'
         toastOptions={{
